@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2159946944195228325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2159946944195228327}
+  - component: {fileID: 2159946944195228326}
+  m_Layer: 0
+  m_Name: MapManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2159946944195228327
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2159946944195228325}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.15060762, y: -13.2545805, z: -9.349546}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2159946944195228326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2159946944195228325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace92658968b66641828596505a5c949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StraightRoadPrefabs:
+  - {fileID: 100000, guid: e620443992f9d495babb2d085f4509b5, type: 3}
+  IntersectionPrefabs:
+  - {fileID: 8745852917725657473, guid: b794655d67476b743a1e88ac0c689dd5, type: 3}
+  - {fileID: 3184074322228203538, guid: e1bc6df5b704cd2469ae8257d406af71, type: 3}
+  - {fileID: 8619832765333834888, guid: 034409223be1c67468f3fa0b56ca852c, type: 3}
+  - {fileID: 345988961233929543, guid: 79f0f41c322f1884ea685084090f3d1e, type: 3}
+  ConstructionParent: {fileID: 0}
+  InitRoadSize: 4
+  ShouldNextRoadIntersection: 0
